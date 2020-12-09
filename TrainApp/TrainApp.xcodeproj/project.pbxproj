@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		224CD34125817F3C000FE0C2 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224CD34025817F3C000FE0C2 /* Alert.swift */; };
 		225B885F257DCFA500ADC1BE /* JourneyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225B885E257DCFA500ADC1BE /* JourneyViewController.swift */; };
 		225B8862257EFB9600ADC1BE /* PlanHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225B8861257EFB9600ADC1BE /* PlanHelper.swift */; };
 		225B887E2580238100ADC1BE /* PlanDataAccessObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225B887D2580238100ADC1BE /* PlanDataAccessObject.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		224CD34025817F3C000FE0C2 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		225B885E257DCFA500ADC1BE /* JourneyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JourneyViewController.swift; sourceTree = "<group>"; };
 		225B8861257EFB9600ADC1BE /* PlanHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanHelper.swift; sourceTree = "<group>"; };
 		225B887D2580238100ADC1BE /* PlanDataAccessObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanDataAccessObject.swift; sourceTree = "<group>"; };
@@ -160,6 +162,7 @@
 			isa = PBXGroup;
 			children = (
 				229A97E5257D857700EA377F /* Spinner.swift */,
+				224CD34025817F3C000FE0C2 /* Alert.swift */,
 			);
 			path = UIElements;
 			sourceTree = "<group>";
@@ -363,6 +366,7 @@
 				22A9FD1A25769A0500A50CCC /* Station.swift in Sources */,
 				229A97EB257DB7AF00EA377F /* UITextField+ext.swift in Sources */,
 				22A9FD5D2578FF9B00A50CCC /* TrainTableViewCell.swift in Sources */,
+				224CD34125817F3C000FE0C2 /* Alert.swift in Sources */,
 				22A9FD1D25769AA700A50CCC /* TrainPosition.swift in Sources */,
 				225B885F257DCFA500ADC1BE /* JourneyViewController.swift in Sources */,
 				22A9FD2025769C3800A50CCC /* StationData.swift in Sources */,
