@@ -83,6 +83,12 @@ class PlanViewController: UIViewController {
         }
     }
     
+    func checkAvailability() {
+        if self.stationData.count == 0 {
+            let alert = Alert.showAlert(message: "Please try again later! There are currently no trains for your trip.")
+            self.navigationController?.present(alert, animated: true)
+        }
+    }
 }
 
 extension PlanViewController: UITextFieldDelegate {
@@ -125,6 +131,7 @@ extension PlanViewController: PlanViewControllerDelegate {
 extension PlanViewController: DataAccessObjectDelegate {
     func willReceiveData(stationData: [StationData]) {
         self.stationData = stationData
+        self.checkAvailability()
         self.tableViewDataSource = TableViewDataSource.configureData(stationData: stationData, reuseIdentifier: "trainCell")
         self.tableView.dataSource = self.tableViewDataSource
     }
