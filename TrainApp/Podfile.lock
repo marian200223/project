@@ -1,0 +1,30 @@
+PODS:
+  - PromiseKit (6.13.1):
+    - PromiseKit/CorePromise (= 6.13.1)
+    - PromiseKit/Foundation (= 6.13.1)
+    - PromiseKit/UIKit (= 6.13.1)
+  - PromiseKit/CorePromise (6.13.1)
+  - PromiseKit/Foundation (6.13.1):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.13.1):
+    - PromiseKit/CorePromise
+  - XMLMapper (1.6.1):
+    - XMLMapper/Core (= 1.6.1)
+  - XMLMapper/Core (1.6.1)
+
+DEPENDENCIES:
+  - PromiseKit
+  - XMLMapper
+
+SPEC REPOS:
+  trunk:
+    - PromiseKit
+    - XMLMapper
+
+SPEC CHECKSUMS:
+  PromiseKit: 28fda91c973cc377875d8c0ea4f973013c05b6db
+  XMLMapper: 758f91d48600afe51e1e9a973cbe779df7a20d99
+
+PODFILE CHECKSUM: 020a45a973c039cbcbc241e9398ba2647c9e1a87
+
+COCOAPODS: 1.9.2
